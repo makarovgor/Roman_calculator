@@ -1,4 +1,3 @@
-# VK_Roman_calculator
-Assignment for the VK internship
+# Roman_calculator
 
-Выполненное тестовое задание для собеседования во ВКонтакте 15.06.2021
+Калькулятор для римских цифр 15.06.2021
