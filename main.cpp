@@ -250,6 +250,8 @@ int to_shorten_arab_ex(string &roman_ex) {
         cout << of_err.what() << endl;
         return 0;
     }
+    
+    /*
     try {
         if (Stack_num.top().value - int(Stack_num.top().value) != 0) {
             throw underflow_error("error: Вefining an integer underflow");
@@ -257,7 +259,7 @@ int to_shorten_arab_ex(string &roman_ex) {
     } catch (const underflow_error &uf_err) {
         cout << uf_err.what() << endl;
         return 0;
-    }
+    }*/
     { return int(Stack_num.top().value); }
 }
 
